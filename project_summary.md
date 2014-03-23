@@ -1,33 +1,18 @@
 # Project Title
-Insert the name of your project
+What colors do I see in my life and what colors did Claude Monet see?
 
 ## Authors
-- Insert main author name, surname, github account
-- Insert other author(s) name, surname, github account (one per list element)
+- Sergey Serov, sergey-serov
 
 ## Description
-Insert a description containing about 100 to 150 words, including your motivation and the meaning behind your idea and execution. The Judges will be keen to know how your idea pushes the boundaries of code and technology. 
+Sum of all colors from personal life photos in online albums and correlation of this individual plane with different World planes: sum of colors on reproduction of World Classical Painting in different historical eras and countries. 
 
-## Link to Prototype
-NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
+What colors did I see last year and what colors did Claude Monet see?
 
-[Example Link](http://www.google.com "Example Link")
+Sum of all colors from first pages of world popular newspapers (this is the "pulse" of planet) also can be solo plane. As a sums of all colors from personal life photos of the same individual but in the other period or sum of all colors from his friend’s life photos.
 
-## Example Code
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
-```
-function test() {
-  console.log("Printing a test");
-}
-```
-## Links to External Libraries
- NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
+User just provides access to his online albums and gets new vision of his life - color vision - what her/his camera sees and what a person does. And how it correlates with colors in different spheres in the World.
 
-[Example Link](http://www.google.com "Example Link")
+Access for everybody and everywere - and at the same time it creates relation between unique individual colors pallet of life and world cultural backgrounds.
 
-## Images & Videos
-NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
-
-![Example Image](project_images/cover.jpg?raw=true "Example Image")
-
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
+One can see himself on the face of Planet Pulse, of other people’s lives, of cultural heritage of humanity. Modern art + new vision of art works contrary to classical usual vision.
