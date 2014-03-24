@@ -22,5 +22,5 @@ One can see himself on the face of Planet Pulse, of other people’s lives, of c
 
 Modern art + new vision of art works contrary to classical usual vision
 
-![Image](../project_images/IMG_8368.JPG?raw=true "Conception and ideas")
-![Image](../project_images/IMG_8367.JPG?raw=true "Conception and ideas")
+![Image](../project_images/IMG_8368.JPG?raw=true "Conception and ideas 1")
+![Image](../project_images/IMG_8367.JPG?raw=true "Conception and ideas 2")

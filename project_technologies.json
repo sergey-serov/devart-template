@@ -1,16 +1,13 @@
 {
     "technologies": {
         "apis": [
-            "insert apis"
+            "flickr",
+            "instagram"
         ],
         "platforms": [
-            "insert platforms"
+            "Google App Engine"
         ],
-        "toolkits": [
-            "insert toolkits"
-        ]
+        "toolkits": []
     },
-    "themes": [
-        "insert themes"
-    ]
+    "themes": []
 }

@@ -2,7 +2,7 @@
 What colors do I see in my life and what colors did Claude Monet see?
 
 ## Authors
-- Sergey Serov, sergey-serov
+- Sergey Serov, @sergey-serov
 
 ## Description
 Sum of all colors from personal life photos in online albums and correlation of this individual plane with different World planes: sum of colors on reproduction of World Classical Painting in different historical eras and countries. 
