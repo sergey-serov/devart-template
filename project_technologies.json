@@ -5,7 +5,8 @@
             "instagram"
         ],
         "platforms": [
-            "Google App Engine"
+            "Google App Engine",
+            "Google Chrome Apps"
         ],
         "toolkits": []
     },

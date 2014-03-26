@@ -1,5 +1,6 @@
-# Project Title
+# Impression through time
 What colors do I see in my life and what colors did Claude Monet see?
+How colors from my photos correlate with colors from Renaissance Painters?
 
 ## Authors
 - Sergey Serov, @sergey-serov
