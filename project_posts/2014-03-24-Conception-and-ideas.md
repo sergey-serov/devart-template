@@ -1,6 +1,6 @@
 Sum of all colors from personal life photos in online albums and correlation of this individual plane with different World planes: sum of colors on reproduction of World Classical Painting in different historical eras and countries. 
 
-What colors did I see last year and what colors did Claude Monet see?
+**What colors did I see last year and what colors did Claude Monet see?**
 
 Sum of all colors from first pages of world popular newspapers (this is the "pulse" of planet) also can be solo plane. As a sums of all colors from personal life photos of the same individual but in the other period or sum of all colors from his friend’s life photos.
 
@@ -23,4 +23,5 @@ One can see himself on the face of Planet Pulse, of other people’s lives, of c
 Modern art + new vision of art works contrary to classical usual vision
 
 ![Image](../project_images/IMG_8368.JPG?raw=true "Conception and ideas 1")
+
 ![Image](../project_images/IMG_8367.JPG?raw=true "Conception and ideas 2")
