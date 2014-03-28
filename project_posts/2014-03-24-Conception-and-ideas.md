@@ -6,7 +6,7 @@ Sum of all colors from first pages of world popular newspapers (this is the "pul
 
 User just provides access to his online albums and gets new vision of his life - color vision - what her/his camera sees and what a person does. And how it correlates with colors in different spheres in the World.
 
-Material: Image on computer monitor, telephone or big screen. T-shirt - "colors from my student life" and "colors from my family life"
+Material: Image on computer monitor, telephone or big screen. "Colors from my student life" and "colors from my family life".
 
 Inspiration lines: early summer rain, Rain, sea or big river walves, flame...
 
@@ -18,7 +18,7 @@ Aims: life, feelings
 
 Access for everybody and everywere - and at the same time it creates relation between unique individual colors pallet of life and world cultural backgrounds.
 
-One can see himself on the face of Planet Pulse, of other people’s lives, of cultural heritage of humanity.
+One can see himself on the face of Planet Pulse, of other people’s lives, of Cultural Heritage of Humanity.
 
 Modern art + new vision of art works contrary to classical usual vision
 

@@ -1,0 +1,85 @@
+/*
+content layer = 990px
+*/
+
+/* tags */
+H3 {
+	border-left: 4px green solid;
+	background: #e2e2e2;
+	padding: 3px 5px 3px 15px;
+}
+
+/* universal */
+.clearfix {
+    clear: both;	
+}
+
+/* images */
+
+.visitor-personal-image-wrap {}
+.visitor-personal-image {
+	background: navy;
+	width: 450px;
+	height: 600px;
+}
+.visitor-personal-image-signature {}
+
+
+.art-image-wrap {
+	margin-left: 90px;
+}
+.art-image {
+	background: green;
+	width: 450px;
+	height: 600px;
+}
+.art-image-signature {
+	text-align: right;
+}
+
+
+.image-wrap {
+	width: 450px;
+	float: left;
+}
+.image-signature {
+	font-weight: bold;
+	padding: 5px 15px;
+}
+
+
+/* control panel */
+
+.control-panel-wrap {
+	width: 990px;
+	background: #e2e2e2;
+}
+.control-panel {}
+
+
+.visitor-personal-control-panel {
+	width: 450px;
+	float: left;
+}
+.visitor-personal-albums {}
+.visitor-personal-years {}
+
+
+.art-control-panel {
+	width: 450px;
+	float: left;
+	margin-left: 90px;
+}
+
+
+.checkbox-row {}
+
+
+
+
+
+
+
+
+
+

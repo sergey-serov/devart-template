@@ -1,3 +1,6 @@
+<?php 
+$start = microtime(TRUE);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +12,42 @@
 <body>
 
 <?php 
-cookie
+
+include_once 'warehouse/impression.php';
+
+// perfomance reason - we randomly take only part of images. @todo find good value here
+// 800x600 - image in browser. 480 000 px
+// ratio 1.3333333 usually
+// 480000/50 = 9600px|colors from each photo
+// for example 60 * 45 = 2700
+// 1 x 4
+$max_files = 50;
+$max_size = 60;
+
+$files = glob("forge/*.JPG");
+shuffle($files);
+if (count($files) > $max_files) {
+  $files = array_slice($files, 0, 50);
+}
+
+$colors = impression_get_colors($files, $max_size);
+shuffle($colors);
+
+// we send to browser about 1 MB @todo find good value
+// 345x345
+if (count($colors) > 119025) {
+  $colors = array_slice($colors, 0, 119025);
+}
+
+$colors = json_encode($colors);
+
+// for develop we save to disk @todo transfer from server to browser
+file_put_contents('entrepot', $colors);
+var_dump($colors);
+?>
+
+<?php 
+
 if (isset($_POST['hosting']) && $_POST['hosting'] == 'flickr') {
   
   include_once 'warehouse/oauth.php';
@@ -58,6 +96,9 @@ if (isset($_GET['oauth_verifier']) && isset($_POST['oauth_token'])) { // @todo a
   // no we need exchanging the 'request token' for an 'access token'
   
   // @todo!!! mysql, billing, table with sid
+  // http://impression-through-time.appspot.com/oauth/flickr.php?
+  // oauth_token=72157642963798474-cfdbe260d0cd5ea0
+  // oauth_verifier=1506097afa8184ef
   
 }
 
@@ -98,7 +139,9 @@ if (isset($_GET['oauth_verifier']) && isset($_POST['oauth_token'])) { // @todo a
 ?>
 </pre>
 
-
+<?php 
+print microtime(TRUE) - $start;
+?>
 
 
 

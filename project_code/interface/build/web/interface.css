@@ -1,0 +1,17 @@
+/* tags */
+H3 {
+	border-top: 1px green solid;
+	background: #e2e2e2;
+	padding: 3px 5px 3px 15px;
+}
+
+/* images */
+.visitor-personal-image,
+.painter-image {
+	width: 49%;
+	height: 80%;
+	border: 1px solid gray;
+}
+
+.visitor-personal-image {}
+.painter-image {}
