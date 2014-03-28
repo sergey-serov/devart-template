@@ -18,7 +18,7 @@ H3 {
 
 .visitor-personal-image-wrap {}
 .visitor-personal-image {
-	background: navy;
+	border: 1px dashed navy;
 	width: 450px;
 	height: 600px;
 }
@@ -29,7 +29,7 @@ H3 {
 	margin-left: 90px;
 }
 .art-image {
-	background: green;
+	border: 1px dashed green;
 	width: 450px;
 	height: 600px;
 }

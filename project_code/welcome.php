@@ -24,14 +24,14 @@ include_once 'warehouse/impression.php';
 $max_files = 50;
 $max_size = 60;
 
-$files = glob("forge/*.JPG");
+$files = glob("forge/*.jpg");
 shuffle($files);
 if (count($files) > $max_files) {
   $files = array_slice($files, 0, 50);
 }
 
-$colors = impression_get_colors($files, $max_size);
-shuffle($colors);
+list($colors, $rating_colors) = impression_get_colors($files, $max_size);
+
 
 // we send to browser about 1 MB @todo find good value
 // 345x345
@@ -39,11 +39,16 @@ if (count($colors) > 119025) {
   $colors = array_slice($colors, 0, 119025);
 }
 
-$colors = json_encode($colors);
 
-// for develop we save to disk @todo transfer from server to browser
-file_put_contents('entrepot', $colors);
-var_dump($colors);
+// for develop we save to disk @todo transfer json with colors from server to browser
+// and then render with dart, js, css, html
+
+// $colors = json_encode($colors);
+// file_put_contents('entrepot', $colors);
+impression_create_total_image($colors);
+impression_create_palette(array_slice($rating_colors, 0, 100), 40);
+
+
 ?>
 
 <?php 
@@ -136,6 +141,7 @@ if (isset($_GET['oauth_verifier']) && isset($_POST['oauth_token'])) { // @todo a
   
   print '<h3>$_SERVER:</h3>';
   var_dump($_SERVER);
+
 ?>
 </pre>
 
